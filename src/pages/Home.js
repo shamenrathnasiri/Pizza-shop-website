@@ -3,6 +3,7 @@ import pizzastore from '../image/PizzaStore.jpg';
 import pizza1 from '../image/pizza1.jpg';
 import pizza2 from '../image/pizza2.jpg';
 import { NavLink } from 'react-router-dom';
+
 function Home() {
   return (
     <><><><><div className="relative w-screen h-screen overflow-hidden">
