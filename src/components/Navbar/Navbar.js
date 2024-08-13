@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../image/main_logo.png';
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +12,9 @@ const Navbar = () => {
     <div>
       <nav className="bg-[#A7FFBB]">
         <div className="flex flex-wrap items-center justify-between p-2 ">
+          <a href="/">
             <img src={logo} className="h-12" alt="Logo" />
+          </a>
           <button 
             onClick={toggleMenu} 
             data-collapse-toggle="navbar-default" 
